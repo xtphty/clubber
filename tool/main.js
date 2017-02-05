@@ -396,5 +396,5 @@ function  render(time) {
 
 reloadAll();
 updateDescriptions();
-soundcloud(TRACK || localStorage.getItem("soundcloud-track") || "https://soundcloud.com/kaitollc/initial-d-running-in-the-90s-1");
+soundcloud(TRACK || "https://soundcloud.com/kaitollc/initial-d-running-in-the-90s-1");
 render(0);
