@@ -73,7 +73,7 @@ float de(vec3 pos) {
 // Camera path
 vec3 path(float ti) {
 	ti*=4.20;
-	vec3  p=vec3(sin(ti)*1.5,(1.-sin(ti*2.))*.5,-ti*25.)*.33;
+	vec3  p=vec3(sin(ti)*1.5,(1.-sin(ti*2.))*.5,-ti*35.)*.33;
 	return p;
 }
 
