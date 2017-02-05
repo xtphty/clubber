@@ -396,5 +396,5 @@ function  render(time) {
 
 reloadAll();
 updateDescriptions();
-soundcloud(TRACK || "https://soundcloud.com/kaitollc/initial-d-running-in-the-90s-1");
+soundcloud("https://soundcloud.com/kaitollc/initial-d-running-in-the-90s-1");
 render(0);
