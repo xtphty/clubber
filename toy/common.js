@@ -110,6 +110,7 @@ function play (src, dropped) {
   }
   audio.src=src;
   audio.play();
+  audio.volume = 0.5;
 }
 
 function load (url, cb) {
